@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Wishusucess_AdminMenu::adminmenu" title="Wishusucess" module="Wishusucess_AdminMenu" sortOrder="51" resource="Wishusucess_AdminMenu::adminmenu"/>
+        <add id="Wishusucess_AdminMenu::one" title="Admin Menu One" module="Wishusucess_AdminMenu" sortOrder="10" action="wishusucess_adminmenu/one" resource="Wishusucess_AdminMenu::one" parent="Wishusucess_AdminMenu::adminmenu"/>
+        <add id="Wishusucess_AdminMenu::two" title="Admin Menu Two" module="Wishusucess_AdminMenu" sortOrder="99" parent="Wishusucess_AdminMenu::adminmenu" action="adminhtml/system_config/edit/section/adminmenu" resource="Wishusucess_AdminMenu::adminmenu_configuration"/>
+    </menu>
+</config>
